@@ -1,0 +1,195 @@
+.center-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-container3 {
+    position: relative;
+    height: 400px;
+    margin-top: -50px;
+}
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-bottom: 0px !important;
+}
+
+.temporary-hidden {
+    display: none;
+}
+
+#temporary-hidden {
+    display: none;
+}
+
+button{
+    background-color: #40048d;
+    position: relative;
+    z-index: 10;
+}
+
+.chart-container1 {
+    position: relative;
+    z-index: 10;
+}
+.chart-container2 {
+    position: relative;
+    z-index: 10;
+}
+
+a {
+    color: #40048d;
+}
+
+#area-of-interest {
+    color: #fcb628
+}
+
+#temporary-hidden {
+    color: #fcb628
+}
+
+html,body{
+    height: 100%;
+    font-family: tahoma;
+}
+
+#main{
+    height: 100%;
+    padding: 0;
+}
+
+.item{
+    position: relative;
+    height: 100%;
+    text-align: center;
+}  
+
+.item:before{
+    content:'';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.item .container{
+    display: inline-block;
+    vertical-align: middle;
+    perspective: 900px;
+}
+
+.item .container > :last-child{
+    margin-bottom: 0;
+}
+
+.item .container .title{
+    display: inline-block;
+    background: white;
+    padding: 0.9em 2em;
+    border-radius: 0.25em;
+    font-size: 2.5em;
+    margin: 0 0 1.5em 0;
+    transform-origin: 50% 50%;
+}
+
+.item .container p{
+    font-size: 1.5em;
+    line-height:1.5em;
+    margin: 0;
+}
+
+.item .next{
+    position:absolute;
+    bottom: 2.5em;
+    left: 50%;
+    width: 5em;
+    height: 5em;
+    margin-left: -2.5em;
+    line-height: 5em;
+    border-radius: 100%;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+}
+
+#header{
+    background-color: #333;
+}
+
+#header .title{
+    background-color: #333;
+}
+
+#one{
+    background-color: red;
+}
+
+#one .title{
+    color: red;
+}
+
+#two{
+    background-color: deepskyblue;
+}
+
+#two .title{
+    color: deepskyblue;
+}
+
+#three{
+    background-color: #e57e22;
+}
+
+#three .title{
+    color: #e57e22;
+}
+
+#four{
+    background-color: #eee;
+}
+
+#four .title{
+    color: #eee;
+}
+
+/* button style */
+.dropbtn {
+background-color: #3498DB;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: #2980B9;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
